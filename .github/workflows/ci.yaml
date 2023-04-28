@@ -43,7 +43,7 @@ jobs:
           which migrate
 
       - name: Run migrations
-        run: migrate up
+        run: migrateup
 
       - name: Test
         run: make test
